@@ -1,0 +1,130 @@
+.mobileNavBar {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+
+  .menuIcon,
+  .theLogo {
+    display: flex;
+    width: 50%;
+  }
+  .menuIcon {
+    justify-content: right;
+  }
+  .theLogo img {
+    margin: 1em;
+    width: 65px;
+  }
+
+  .menuIcon img {
+    width: 45px;
+    margin: 1em;
+  }
+}
+.theOutterCover {
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  z-index: 100;
+}
+.theMenu {
+  background-color: rgb(57, 55, 65);
+  border: 2px solid white;
+  border-radius: 10px 0 10px 10px;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  z-index: 100;
+
+  .closeIcon {
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid white;
+  }
+
+  .closeIcon img {
+    margin: 0.5em;
+    width: 35px;
+  }
+
+  .links {
+    text-align: center;
+    display: block;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .links li {
+    background-color: rgba(1, 60, 87, 0.938);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .accountRelatedBtn {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .mobileNavBar {
+    .theLogo img {
+      width: 40px;
+    }
+
+    .menuIcon img {
+      width: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 590px) {
+  .mobileNavBar {
+    .theLogo img {
+      width: 35px;
+    }
+
+    .menuIcon img {
+      width: 35px;
+    }
+  }
+  .theMenu {
+    .closeIcon img {
+      width: 25px;
+    }
+
+    .links {
+      text-align: center;
+      display: block;
+      width: 200px;
+    }
+
+    .links li {
+      font-size: 15px;
+    }
+
+    .accountRelatedBtn button {
+      font-size: 12px;
+      margin: 0 0.75em;
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  .mobileNavBar {
+    .theLogo img {
+      width: 25px;
+    }
+
+    .menuIcon img {
+      width: 25px;
+    }
+  }
+}

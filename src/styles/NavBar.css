@@ -1,0 +1,67 @@
+* {
+  color: black;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navBar {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+.logo {
+  padding: 0;
+}
+.logo img {
+  padding: 0;
+  height: 85px;
+  width: 65px;
+}
+.logo img:hover {
+  filter: drop-shadow(0 0 2em blue);
+}
+.links {
+  display: flex;
+  margin: 0;
+}
+.links li {
+  color: white;
+  font-size: 13px;
+  list-style-type: none;
+  margin: auto 25px;
+}
+.links li:hover {
+  color: #f7404e;
+  cursor: pointer;
+}
+.acountRelatedBtn {
+  margin: auto 0;
+}
+.signUpBtn {
+  background-color: #395473;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  padding: 4px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.logInBtn {
+  background-color: #f7404e;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  padding: 4px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navBar {
+    width: 1000px;
+  }
+}

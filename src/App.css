@@ -1,0 +1,12 @@
+:root {
+  overflow-x: hidden;
+}
+.contain {
+  width: 1240px;
+  margin: auto;
+}
+@media only screen and (max-width: 1240px) {
+  .contain {
+    width: 100%;
+  }
+}

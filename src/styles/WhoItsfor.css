@@ -1,0 +1,150 @@
+.backgroundColor {
+  background-color: #000000;
+  width: 100%;
+}
+.gridient {
+  background-image: linear-gradient(#383840, #000000 50%);
+  height: 600px;
+}
+.darkIntro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.darkIntro img {
+  object-fit: contain;
+  height: 540px;
+  width: 400px;
+}
+
+.image911 {
+  width: 100%;
+}
+.image911 img {
+  object-fit: contain;
+  margin: auto;
+  width: 590px;
+}
+.whoItFor {
+  display: flex;
+}
+.whoItForContent {
+  width: 100%;
+  margin: 90px 0 0 0;
+}
+.whoItForContent h3,
+.designAndHeritage h3 {
+  color: #d27c17;
+  font-family: "Inknut Antiqua";
+  font-size: 32px;
+  text-decoration: underline;
+}
+.whoItForContent p,
+.designAndHeritage li {
+  color: white;
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: lighter;
+  width: 75%;
+}
+.designAndHeritage li {
+  margin-left: -20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .whoItFor {
+    display: block;
+  }
+  .image911 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .madeForContent {
+    display: flex;
+  }
+
+  .whoItForContent,
+  .designAndHeritage {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+  .whoItForContent p,
+  .designAndHeritage li {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .image911 {
+    display: flex;
+    justify-content: center;
+  }
+  .darkIntro img {
+    width: 250px;
+  }
+  .madeForContent {
+    display: block;
+  }
+
+  .whoItForContent,
+  .designAndHeritage {
+    width: 90%;
+  }
+  .whoItForContent p,
+  .designAndHeritage li {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .darkIntro {
+    margin: 0;
+    padding: 0;
+  }
+  .darkIntro img {
+    width: 200px;
+  }
+  .image911 img {
+    width: 350px;
+  }
+  .whoItForContent,
+  .designAndHeritage {
+    margin: auto;
+    padding: 0;
+  }
+  .whoItForContent h3,
+  .designAndHeritage h3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .whoItForContent p,
+  .designAndHeritage li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .darkIntro img {
+    width: 150px;
+  }
+  .image911 img {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .whoItForContent h3,
+  .designAndHeritage h3 {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+  }
+  .whoItForContent p,
+  .designAndHeritage li {
+    font-size: 12px;
+  }
+}

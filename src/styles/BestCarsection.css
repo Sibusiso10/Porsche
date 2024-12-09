@@ -1,0 +1,163 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+.BestCarsection {
+  margin: 200px 0 100px 0;
+  text-align: center;
+  width: 1250px;
+}
+.BestCarTittle {
+  display: block;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.BestCarTittle h2 {
+  color: white;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: "Inika";
+  font-weight: 400;
+}
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.imgs p {
+  color: #f7404e;
+  margin: auto 0;
+  font-size: 60px;
+  font-family: "Grenze";
+  font-weight: 300;
+}
+.img1,
+.img2 {
+  margin: 16px auto;
+  text-align: center;
+  padding: 0;
+}
+.img1 p,
+.img2 p {
+  padding: 0;
+  margin: 10px 0 -50px 0;
+  text-decoration: underline;
+}
+.imgs img {
+  object-fit: contain;
+  width: 500px;
+}
+.exit {
+  background-image: linear-gradient(#383840, #6c8da5, #383840);
+  display: flex;
+  justify-content: space-evenly;
+  margin: -200px 0 0;
+}
+
+.exit h5 {
+  color: black;
+  font-family: "Akaya Telivigala";
+  font-size: 54px;
+  margin: 50px 0;
+  padding: 150px 0 90px 0;
+  width: 900px;
+  -webkit-text-stroke: 0.01px rgb(198, 213, 216);
+}
+
+@media only screen and (max-width: 1050px) {
+  .BestCarsection {
+    margin: 50px 0 100px 0;
+    width: 100%;
+  }
+  .BestCarTittle {
+    margin: auto;
+    width: 100%;
+  }
+  .BestCarTittle h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .imgs {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+
+  .img1 p,
+  .img2 p {
+    font-size: 45px;
+    margin: 10px 0 -50px 0;
+    text-decoration: underline;
+  }
+  .imgs img {
+    width: 400px;
+  }
+  .exit {
+    margin: 10px 0 0 0;
+  }
+
+  .exit h5 {
+    font-size: 45px;
+    padding: 100px 0 60px 0;
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .BestCarTittle h2 {
+    font-size: 27px;
+  }
+
+  .img1 p,
+  .img2 p {
+    font-size: 40px;
+    margin: 0.1em;
+  }
+  .imgs img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .BestCarTittle h2 {
+    font-size: 25px;
+  }
+  .imgs {
+    display: block;
+  }
+  .imgs img {
+    width: 400px;
+  }
+  .imgs .and {
+    display: none;
+  }
+  .exit h5 {
+    font-size: 25px;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .BestCarTittle h2 {
+    font-size: 25px;
+  }
+  .imgs img {
+    width: 270px;
+  }
+  .exit h5 {
+    font-size: 22px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .BestCarTittle h2 {
+    font-size: 18px;
+  }
+  .img1 p,
+  .img2 p {
+    font-size: 32px;
+  }
+  .imgs img {
+    width: 230px;
+  }
+}

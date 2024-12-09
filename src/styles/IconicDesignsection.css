@@ -1,0 +1,124 @@
+.IconicSection {
+  width: 100%;
+}
+.containingTheImages {
+  display: flex;
+  justify-content: space-between;
+}
+.SvgPorsche {
+  display: flex;
+  justify-content: right;
+}
+.SvgPorsche img {
+  margin-top: -30px;
+  height: 350px;
+  width: 570px;
+}
+
+.IconicContainer {
+  display: flex;
+  margin-top: -10px;
+}
+.IconicContent {
+  position: relative;
+}
+.IconicContent li {
+  margin-bottom: 23px;
+  font-family: "Be Vietnam Pro";
+}
+.Older img {
+  margin-top: -100px;
+}
+.IconicContent ul {
+  margin-top: 270px;
+  list-style: decimal;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1110px) {
+  .containingTheImages {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+  }
+  .SvgPorsche img {
+    width: 400px;
+  }
+  .Newer {
+    display: none;
+  }
+  .Older img {
+    margin-top: 0px;
+  }
+  .IconicContent {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+  .IconicContent ul {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .containingTheImages {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+  }
+  .SvgPorsche img {
+    width: 300px;
+  }
+  .Older img {
+    margin-top: -50px;
+    width: 300px;
+  }
+  .IconicContent ul {
+    margin-top: -70px;
+  }
+
+  .IconicContent li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SvgPorsche img {
+    width: 230px;
+  }
+  .IconicContainer {
+    display: block;
+  }
+
+  .containingTheImages {
+    width: 100%;
+  }
+  .containingTheImages IMG {
+    margin: 0;
+    padding: 0;
+  }
+  .IconicContent {
+    width: 100%;
+  }
+
+  .IconicContent ul {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 87%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .SvgPorsche img {
+    width: 170px;
+  }
+  .containingTheImages IMG {
+    width: 250px;
+  }
+  .IconicContent ul li {
+    font-size: 12px;
+  }
+}

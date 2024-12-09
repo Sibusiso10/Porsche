@@ -1,0 +1,107 @@
+.container {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 760px;
+  width: 100%;
+}
+.engineInformation {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+.engineInformation p,
+li {
+  color: white;
+  font-family: "Aref Ruqaa";
+}
+
+.inList li {
+  list-style-position: initial;
+}
+.engineImage {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.engineImage img {
+  object-fit: contain;
+  margin: auto;
+  width: 630px;
+}
+.Linebreak {
+  margin: 0;
+  padding: 0;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .engineInformation {
+    overflow-y: scroll;
+  }
+  .engineImage img {
+    height: 550px;
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    height: 600px;
+  }
+  .engineImage img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    height: 400px;
+  }
+  .engineImage img {
+    margin-top: -70px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: fit-content;
+    display: block;
+  }
+  .engineInformation {
+    height: 350px;
+    width: 100%;
+  }
+  .engineInformation p {
+    width: 87%;
+  }
+  .Linebreak {
+    display: none;
+  }
+  .engineImage {
+    width: 100%;
+  }
+  .engineImage img {
+    margin: 0;
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .engineInformation {
+    height: 300px;
+  }
+  .engineInformation p {
+    font-size: 15px;
+  }
+  .engineInformation li {
+    font-size: 15px;
+  }
+  .engineImage img {
+    width: 250px;
+  }
+}
